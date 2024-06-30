@@ -1,0 +1,94 @@
+html {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+body {
+    font-size: 14px;
+
+    /* Font API stuff */
+    font-family: 'Inter', 'Public Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+
+}
+
+/* pane styles */
+.links-pane {
+    /* debug */
+
+
+    /* regular */
+    padding: 20px;
+    max-width: 300px;
+    margin: 50px auto 0px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+
+    border-radius: 15px;
+
+}
+
+img {
+    border-radius: 100%;
+    max-width: 75px;
+}
+
+.location-text {
+    color: hsl(75, 94%, 57%);
+
+}
+
+button {
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    display: block;
+    align-self: center;
+    margin: 15px auto;
+    padding: 10px;
+    width: 95%;
+
+    /* clean up default formating */
+    border: 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+
+/* footer styles */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* utilities */
+.inter-reg{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+.inter-semibold{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+.inter-bold{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
