@@ -7,10 +7,11 @@ const port = 3000
 
 // Setup Express
 app.use(express.static('public'))
-app.use(express.static('assets/images'))
-app.use(express.static('assets/css'))
+app.use(express.static('../assets/images'))
+app.use(express.static('../assets/css'))
 
 const router = Router();
-router.get("/", (req, res) => res.send("Hello World!"));
+app.use('/.netlify/functions/', router);
+
 
 export const handler = serverless(app);
